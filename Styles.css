@@ -1,0 +1,36 @@
+.navbar-brand {
+  padding: 0%;
+}
+
+.nav-item {
+  justify-items: right !important;
+}
+#navbarNav {
+  justify-content: right;
+}
+.bg-light {
+  background-color: rgba(0, 0, 0, 0.623) !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: white;
+  font-weight: bold;
+}
+body {
+  background-color: black;
+}
+h1 {
+  font-size: larger;
+  color: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 180, 253, 1) 50%,
+    rgba(69, 122, 252, 1) 100%
+  );
+}
+#Jordan {
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+}
