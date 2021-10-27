@@ -1,5 +1,5 @@
 .navbar-brand {
-  padding: 0%;
+  margin-left: 50px;
 }
 
 .nav-item {
@@ -17,19 +17,28 @@
   font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link.active:hover {
-  color: salmon;
+  color: purple;
+  animation-name: flavour;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
 }
+@keyframes flavour {
+  0% {
+    color: white;
+  }
+  50% {
+    color: purple;
+  }
+  100% {
+    color: white;
+  }
+}
+
 body {
   background-color: black;
 }
 h1 {
   font-size: 100px;
-  color: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(29, 180, 253, 1) 50%,
-    rgba(69, 122, 252, 1) 100%
-  );
   text-align: center;
   color: white;
 }
@@ -50,13 +59,12 @@ h1 {
   padding-bottom: 40px;
 }
 #landing {
-  background: radial-gradient(
-    circle,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(43, 29, 253, 1) 50%,
-    rgba(69, 122, 252, 1) 100%
-  );
+  background-image: url(https://wallpapercave.com/wp/wp2633660.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 50px;
+  width: 100%;
 }
 .nav-item:hover {
   color: salmon;
@@ -74,9 +82,12 @@ h2 {
 }
 .description {
   color: white;
+  font-size: 30px;
 }
 #WE {
   background-color: rgb(38, 37, 37);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .Circle {
   background: rgba(0, 0, 0, 0.25);
@@ -88,4 +99,50 @@ h2 {
 }
 .work {
   border-right: white 5px solid;
+}
+
+ul.testimonial-thumb-wrapper {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  max-width: 510 px;
+  margin: 0 px auto;
+  margin-bottom: -30 px;
+  outline: none;
+  border: 0 none;
+}
+button {
+  padding: 0%;
+}
+#skill {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card {
+  background: rgba(255, 255, 255, 0.027);
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+#About {
+  background-color: rgb(38, 37, 37);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+.test {
+  border-top: 3px solid rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url(https://www.pngkey.com/png/full/332-3321462_mobile-menu-for-barefoot-resort-vacations-hamburger-menu.png);
 }
