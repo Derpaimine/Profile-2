@@ -116,6 +116,10 @@ ul.testimonial-thumb-wrapper {
 }
 button {
   padding: 0%;
+  margin: 5px;
+}
+button:hover {
+  transform: scale(1.5);
 }
 #skill {
   background-color: black;
