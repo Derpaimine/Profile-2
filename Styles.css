@@ -9,7 +9,7 @@
   justify-content: right;
 }
 .bg-light {
-  background-color: #191919 !important;
+  background-color: black !important;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -59,10 +59,7 @@ h1 {
   padding-bottom: 40px;
 }
 #landing {
-  background-image: url(https://wallpapercave.com/wp/wp2633660.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
   padding-top: 50px;
   width: 100%;
 }
@@ -85,7 +82,7 @@ h2 {
   font-size: 30px;
 }
 #WE {
-  background-color: rgb(38, 37, 37);
+  background-color: black;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -118,20 +115,18 @@ button {
   padding: 0%;
   margin: 5px;
 }
-button:hover {
-  transform: scale(1.5);
-}
 #skill {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.18);
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .card {
-  background: rgba(255, 255, 255, 0.027);
+  background: rgba(0, 0, 0, 0.72);
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
+  border: transparent 3px solid;
 }
 
 #About {
@@ -149,4 +144,46 @@ button:hover {
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url(https://www.pngkey.com/png/full/332-3321462_mobile-menu-for-barefoot-resort-vacations-hamburger-menu.png);
+}
+
+h3 {
+  color: white;
+  font-size: 35px;
+}
+.left-bord {
+  border-left: solid 5px rgb(90, 0, 90);
+}
+#contact {
+  background-color: rgba(0, 0, 0);
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid purple;
+  border-radius: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+}
+.button1:hover {
+  background-color: purple;
+  color: white;
+}
+input {
+  border: 2px solid purple !important;
+  border-radius: 50px !important;
+  text-align: center;
+}
+label {
+  text-decoration: none !important;
+  color: white;
+  font-size: large;
+}
+
+#footer {
+  background-color: rgba(255, 255, 255, 0.18);
+  padding: 0;
+}
+h3 {
+  margin: 0%;
 }

@@ -58,10 +58,7 @@
             <a class="nav-link active" aria-current="page" href="#skill"><i class="bi bi-stars"></i>Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#projects"><i class="bi bi-clipboard-check"></i>Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-person-lines-fill"></i>Contact</a>
+            <a class="nav-link active" aria-current="page" href="#contact"><i class="bi bi-person-lines-fill"></i>Contact</a>
           </li>
         </ul>
       </div>
@@ -115,11 +112,26 @@
           <div class="col-lg-7 col-sm12">
             <h2>About me</h2>
             <br />
+            <h3 class="left-bord">Bio</h3>
+            <p class="description ">
+            Full name: Jordan Rodrique Duncan Dawson <br>
+            Date of birth: 05/11/2001 <br>
+            Gender: Male <br>
+            Location: Muizenberg <br>
+            Cell Phone number: 0766730868 <br>
+            Email Address: jordandawson09@gmail.com <br>
+            GitHub: <br>
+            LinkedIn: <br>
+            </p>
+
+          </div>
+          <div class="container">
+            
+              <h3 class="left-bord">Where did your passion for coding start</h3>
             <p class="description">
-              I am Jordan Rodrique Duncan Dawson. <br />
-              I am 19 years old born on the 5th of November.<br />
-              I am a Matriculate from Oakley House Highschool.<br />
-              I am a Full-stack,Front-end,and Back end developer.
+              I have been interested in computers since I was a child. I became enthralled when I saved up and
+              invested in my own laptop and joined CAT during High School, which just helped cement my
+              path into the programming industry.
             </p>
           </div>
         </div>
@@ -129,12 +141,13 @@
               <div class="row align-items-center">
                  <div class="col-lg-6">
                    <h2 id="testimonialName">Muhamad Abdul</h2>
-                   <p class="description" id="testimonialQuote">Jordan</p>
+                   <p class="description" id="testimonialQuote">Jordan is a well-rounded individual and always extends his hand when others are in need, making him an exceptional team-player. Jordan is very resourceful and utilizes whatever resources at his disposal and applies it effectively within any project. I believe Jordan to be an important asset within the programming space.
+</p>
                  </div>
                 <div class="col-lg-6">
                   <ul class="testimonial-thumb-wrapper align-contents-center">
                      <li>
-                       <button type="button" onclick="showTestimonial('Muhamad Abdul', 'This is Jordan he is a cool person who studies at life choices academy and he really enjoys doing coding.')">
+                       <button type="button" onclick="showTestimonial('Muhamad Abdul', 'Jordan is a well-rounded individual and always extends his hand when others are in need, making him an exceptional team-player. Jordan is very resourceful and utilizes whatever resources at his disposal and applies it effectively within any project. I believe Jordan to be an important asset within the programming space.')">
                          <img src="/Assets/Muhamad Abdul3.JPG" alt="Muhamad" style="height: 150px; width: 200px;">
                        </button>
                      </li>
@@ -150,6 +163,11 @@
                      </li>
                      <li>
                        <button type="button"  onclick="showTestimonial('Seth Kleynhans', 'This is Jordan he is a cool person who studies at life choices academy and he really enjoys doing coding.')">
+                        <img src="/Assets/Seth3.JPG" alt="img" style="height: 150px; width: 200px;">
+                      </button>
+                     </li>
+                     <li>
+                       <button type="button"  onclick="showTestimonial('Alex Sexwale', 'This is Jordan he is a cool person who studies at life choices academy and he really enjoys doing coding.')">
                         <img src="/Assets/Seth3.JPG" alt="img" style="height: 150px; width: 200px;">
                       </button>
                      </li>
@@ -202,7 +220,7 @@
       <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="https://destatic.blob.core.windows.net/images/bootstrap-logo.png" alt="Card image cap">
             <div class="card-body">
-            <p style="color:rgba(255, 255, 255, 0.494);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p style="color:rgba(255, 255, 255, 0.494);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
     </div>
@@ -225,8 +243,68 @@
   </div>
   </div>
     </section>
-    <!-- Projects -->
-    <script src="./scripts.js"></script>
+    <!-- Contact section -->
+    <section id="contact">
+      <h1>Contact</h1>
+      <form
+  action="https://formspree.io/f/mayakqdg"
+  method="POST"
+>
+<br>
+<div class="d-flex justify-content-center">
+  <ul>
+  <li>
+    <label for="exampleInputSurname1">Surname</label>
+    <input type="text" class="form-control" id="exampleInputSurname1" placeholder="Enter Surname">
+  </li> 
+  <br> </br>
+<li>
+  <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+</li>
+<br></br>
+<li>
+<label for="exampleInputPhone-number1">
+    Phone Number
+</label>
+    <input type="tel" class="form-control" id="exampleInputPhone-number1" placeholder="Enter Phone Number">
+</li>
+<br></br>
+<li>
+<label>
+    Your message:
+</label for="exampleInputMessage1">
+    <textarea class="form-control" style="border-radius: 25px !important; border: purple 3px solid;" id="exampleInputMessage1"></textarea>
+  
+</li>
+  <br></br>
+  <div class="d-flex justify-content-center">
+  <button class="button1 btn-lg" type="submit"><i class="bi bi-upload"></i> Send</button>
+  <button class="button1 btn-lg" type="reset"><i class="bi bi-arrow-counterclockwise"></i> Reset</button>
+  </div>
+  </ul>
+  </div>
+</form>
+</div>
+    </section>
+    <!-- End of contact -->
+    <!-- Footer -->
+    <section id="footer">
+    <div class="container">
+      <footer class="d-flex justify-content-between align-items-center border-top">
+        <div class="d-fex flex-wrap align-items-center">
+          </div>
+          <ul class="justify-content-end list-unstyled d-flex" style="padding-right: 3px;">
+            <li><a href=""><i class="bi bi-twitter"></i>Derpamine</a></li>
+            <li><a href=""><i class="bi bi-twitch"></i>Durpamine</a></li>
+            <li><a href=""><i class="bi bi-discord"></i>Derpamine</a></li>
+          </ul>
+        
+      </footer>
+    </div>
+    </section>
+
+    <script src="./scripts.js" ></script>
     </body>
 </html>
 
